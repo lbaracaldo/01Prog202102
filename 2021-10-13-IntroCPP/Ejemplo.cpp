@@ -21,14 +21,11 @@ int main(void)
 
 void print_even(int nmin, int nmax) // Implementación
 {
-  int suma = 0;
   for(int ii = nmin; ii <= nmax; ii = ii+1){
       //Si el número es par, entonces imprimir
       if(ii%2 == 0){
 	std::cout << ii << " ";
-	suma = suma+ii;
       }
     }
   std::cout << "\n";
-  std::cout << suma << " ";
 }
